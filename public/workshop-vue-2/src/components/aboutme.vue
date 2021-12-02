@@ -22,14 +22,16 @@
                     <p>SOUFIYAN FITAH</p>
                 </div>
 
-                
+                <div class="responsive">
                 <div class="col d-flex flex-lg-row flex-column justify-content-between">
+                    <div class="res1">
                   <p class="text-end"><b>E-mail:</b> fitahsoufian7@gmail.com</p> 
                   <p class="text-end"><b>Phone:</b> +212 656985046</p>
                   <p class="text-end"><b>City:</b> Tanger, Morocco</p>
                   <p class="text-end"><b>Languages:</b>  English, French</p>
+                  </div>
                 </div>
-
+</div>
 
             </div>
         </div>
@@ -77,11 +79,39 @@
     }
     .photo p{
         margin-top: 14px;
-        font-size:18px;
+        font-size: 18px;
         font-weight: 700;
         text-align:center;
     }
     .contacts{
         font-size: 10px;
     }
+    .res1{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    @media only screen and (max-width: 600px) {
+   .photo img{
+        border-radius: 100%;
+        width: 350px;
+        height: 350px;
+        margin-left: auto;
+    }
+   .responsives{
+        display:flex;
+
+    }
+     .photo p{
+        margin-left: 250px;
+        text-align:center;
+    }
+  .res1{
+    display: flex;
+    flex-direction: column;
+    text-align-last: left;
+  }
+}
+    
 </style>

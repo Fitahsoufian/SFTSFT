@@ -252,6 +252,6 @@
     }
         .container-fluid{
         min-height: 100vh;
-        background: #424242;
+        background: black;
     }
 </style>
